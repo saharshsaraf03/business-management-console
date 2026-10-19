@@ -30,11 +30,6 @@ This platform was built to replace that manual process entirely — starting fro
 - **Data interpretation** — implemented sales velocity calculations (average dozens sold per day over last 7 days), stockout predictions per product category, and projected revenue from remaining inventory
 - **Reporting** — Excel (.xlsx) and PDF export functionality for sales ledgers and stock purchase records
 
-### GenAI Tool Usage
-- **Built using Claude (Anthropic)** as the primary development accelerator — used for architecture design, code generation, database schema review, and debugging
-- Demonstrates practical, production-level use of GenAI tools to ship a real working system — not just for writing or summarisation but for complex technical problem-solving
-- Entire development workflow was AI-assisted: requirements → schema → code → deployment → iteration
-
 ### Technical Skills
 - **REST API integration** — React frontend communicates with Supabase's auto-generated REST API for all CRUD operations
 - **Data flows** — implemented real-time data sync between the React frontend and PostgreSQL backend via Supabase's JS client
